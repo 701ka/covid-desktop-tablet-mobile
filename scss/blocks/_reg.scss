@@ -214,8 +214,56 @@
 }
 @media only screen and (max-width: 375px) {
   .reg {
+    .reg__title {
+      font-size: 24px;
+      width: 230px;
+      text-align: center;
+      margin: 0 auto;
+    }
     .reg__subtitle {
       font-size: 14px;
+      width: 143px;
+    }
+    .reg__name_input {
+      font-size: 14px;
+      width: 305px;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .reg__txt {
+      font-size: 14px;
+      width: 321px;
+    }
+    .reg__country {
+      flex-direction: column;
+      width: 305px;
+    }
+    .reg__img {
+      margin-top: 20px;
+      width: 305px;
+      height: 437.3442077636719px;
+    }
+    .reg__bottom_info {
+      width: 298px;
+      font-size: 14px;
+    }
+    .reg__btn {
+      font-size: 14px;
+      padding: 16.5px 125.5px;
+      border-radius: 10px;
+    }
+    .reg__btn_verify {
+      padding: 16.5px 53.5px;
+      font-size: 14px;
+      align-self: start;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: 0;
+    }
+    .phone-input {
+      width: 310px;
+      border-radius: 10px;
     }
   }
 }
