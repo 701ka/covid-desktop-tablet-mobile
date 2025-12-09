@@ -1,0 +1,221 @@
+.reg {
+  padding-top: 40px;
+  padding-bottom: 33px;
+  background: linear-gradient(to right, #fff, #fff);
+  // background: url("../../src/02cf331f9ea8318ba1f33eb7b804f07bcc4a7eb4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: $main-font;
+
+  .reg__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .reg__title {
+    font-size: 48px;
+    font-family: $main-font;
+    width: 480px;
+  }
+  .reg__info {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reg__bottom_info {
+    display: flex;
+    width: 460px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+  }
+  .reg__ques {
+    font-family: $main-font;
+  }
+  .reg__state {
+    color: $second-color;
+    font-weight: 700;
+  }
+  .info__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .reg__subtitle {
+    font-size: 24px;
+  }
+  .reg__name_input::placeholder {
+    font-family: $main-font;
+    color: #00000040;
+    margin-top: -10px;
+    font-size: 24px;
+  }
+  .reg__name_input {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 25px 0px 20px 31px;
+    outline: none;
+    border: none;
+    background-color: #0b153c26;
+    border-radius: 20px;
+  }
+  .reg__txt {
+    color: #00000080;
+    width: 654px;
+    margin: 20px 0;
+  }
+  .reg__country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .reg__input_flag {
+    display: flex;
+    align-items: center;
+    background-color: #0000001a;
+    border-radius: 20px;
+  }
+  .flag__bg {
+    padding: 15px 0px 15px 30px;
+    // background-color: #0000001a;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+  .strelka {
+    color: #00000040;
+  }
+  .reg__flag__input {
+    border: none;
+    font-size: 24px;
+    padding: 15px;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+  }
+  .reg__btn_verify {
+    padding: 20px 70px;
+    color: $main-color;
+    font-family: $main-font;
+    background-color: $second-color;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    margin-left: 40px;
+  }
+  .reg__btn {
+    padding: 20px 279px;
+    border: none;
+    color: $main-color;
+    font-family: $main-font;
+    background-color: $second-color;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+  .phone-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e8eef2;
+    padding: 22px 12px;
+    border-radius: 20px;
+    width: 400px;
+    gap: 10px;
+    position: relative;
+  }
+
+  .country-select {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  .phone-input img {
+    width: 24px;
+    height: 18px;
+    border-radius: 3px;
+  }
+
+  #phone-code {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .phone-input input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    flex: 1;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 2918px;
+    left: 159px;
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 5px 0;
+    list-style: none;
+    z-index: 100;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  .dropdown.hidden {
+    display: none;
+  }
+
+  .dropdown li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  .dropdown li:hover {
+    background: #f1f5f9;
+  }
+
+  .dropdown img {
+    width: 24px;
+    height: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .reg {
+    .reg__info {
+      flex-direction: column;
+      row-gap: 70px;
+      align-items: center;
+    }
+    .reg__img {
+      order: -1;
+    }
+    .reg__title {
+      font-size: 36px;
+      width: 586px;
+    }
+    .reg__bottom_info {
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .reg {
+    .reg__subtitle {
+      font-size: 14px;
+    }
+  }
+}

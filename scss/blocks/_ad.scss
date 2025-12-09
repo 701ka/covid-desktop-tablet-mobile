@@ -1,0 +1,30 @@
+.ad {
+  background-color: #fff;
+  padding: 10px 0;
+  .ad__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .ad {
+    .ad__inner {
+      column-gap: 20px;
+    }
+    .ad__img {
+      width: 148px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .ad {
+    .ad__inner {
+      column-gap: 12px;
+    }
+    .ad__img {
+      width: 72px;
+    }
+  }
+}
