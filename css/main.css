@@ -1246,4 +1246,167 @@ header .header__three_bg {
     width: 100px;
     height: 32px;
   }
+}
+.op {
+  font-family: "Montserrat";
+  background-color: #fff;
+  padding-top: 57px;
+  padding-bottom: 106px;
+  background-image: url("../../src/xs.png");
+  background-repeat: no-repeat;
+  background-position: 50% calc(50% + 138px);
+}
+.op .op__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.op .op__subtitle {
+  color: #17c2ec;
+  font-size: 24px;
+}
+.op .op__title {
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.op .op__text {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  width: 953px;
+  text-align: center;
+}
+.op .op__bottom {
+  margin-top: 100px;
+}
+.op .op__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  justify-content: center;
+}
+.op .op__item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 43px;
+  background-color: rgba(196, 196, 196, 0.5019607843);
+  border-radius: 20px;
+  padding: 40px;
+}
+.op .op__item:nth-child(2) {
+  background-color: #17c2ec;
+}
+.op .op__item:nth-child(2) .item__info {
+  color: #fff;
+}
+.op .op__item:nth-child(2) .op__item_text {
+  color: #fff;
+  width: 333px;
+}
+.op .op__item:nth-child(2) .op__item_text span {
+  color: #fff;
+}
+.op .item__top {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.op .op__img {
+  border-radius: 20px;
+}
+.op .item__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: start;
+}
+.op .info__title {
+  font-size: 24px;
+}
+.op .info__job {
+  font-size: 14px;
+}
+.op .op__item_text {
+  text-align: center;
+  width: 333px;
+  margin: 0 auto;
+}
+.op .op__item_text span {
+  color: #17c2ec;
+}
+
+@media (max-width: 768px) {
+  .op {
+    background-image: url("../../src/sx.png");
+    background-repeat: no-repeat;
+    background-position: 50% calc(50% + 104px);
+    background-size: 173px 849px;
+  }
+  .op .op__subtitle {
+    font-size: 20px;
+  }
+  .op .op__title {
+    font-size: 36px;
+  }
+  .op .op__text {
+    font-size: 18px;
+    width: 580px;
+  }
+  .op .op__list {
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .op {
+    padding-top: 30px;
+    padding-bottom: 44px;
+    background-size: 134px 643px;
+    background-position: 50% calc(50% + 100px);
+  }
+  .op .op__subtitle {
+    font-size: 14px;
+  }
+  .op .op__bottom {
+    margin-top: 16px;
+  }
+  .op .op__title {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .op .op__text {
+    font-size: 12px;
+    width: 248px;
+  }
+  .op .op__item_text {
+    font-size: 12.2px;
+    width: 253px;
+  }
+  .op .op__item {
+    padding: 22px 12px 33px 13px;
+    row-gap: 30px;
+  }
+  .op .op__item:nth-child(2) .op__item_text {
+    width: 257px;
+  }
+  .op .op__list {
+    margin: 0 auto;
+  }
+  .op .info__title {
+    font-size: 15.28px;
+  }
+  .op .info__job {
+    font-size: 10.7px;
+  }
+  .op .op__img {
+    width: 53px;
+    height: 53px;
+    border-radius: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
