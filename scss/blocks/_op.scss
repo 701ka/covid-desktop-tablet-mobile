@@ -2,10 +2,10 @@
   font-family: $main-font;
   background-color: #fff;
   padding-top: 57px;
-  padding-bottom: 106px;
+  padding-bottom: 406px;
   background-image: url("../../src/xs.png");
   background-repeat: no-repeat;
-  background-position: 50% calc(50% + 138px);
+  background-position: 50% calc(50% - 21px);
   .op__top {
     display: flex;
     flex-direction: column;
@@ -113,9 +113,9 @@
 @media only screen and (max-width: 375px) {
   .op {
     padding-top: 30px;
-    padding-bottom: 44px;
+    padding-bottom: 144px;
     background-size: 134px 643px;
-    background-position: 50% calc(50% + 100px);
+    background-position: 50% calc(50% + 11px);
     .op__subtitle {
       font-size: 14px;
     }

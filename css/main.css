@@ -1251,10 +1251,10 @@ header .header__three_bg {
   font-family: "Montserrat";
   background-color: #fff;
   padding-top: 57px;
-  padding-bottom: 106px;
+  padding-bottom: 406px;
   background-image: url("../../src/xs.png");
   background-repeat: no-repeat;
-  background-position: 50% calc(50% + 138px);
+  background-position: 50% calc(50% - 21px);
 }
 .op .op__top {
   display: flex;
@@ -1365,9 +1365,9 @@ header .header__three_bg {
 @media only screen and (max-width: 375px) {
   .op {
     padding-top: 30px;
-    padding-bottom: 44px;
+    padding-bottom: 144px;
     background-size: 134px 643px;
-    background-position: 50% calc(50% + 100px);
+    background-position: 50% calc(50% + 11px);
   }
   .op .op__subtitle {
     font-size: 14px;
@@ -1408,5 +1408,206 @@ header .header__three_bg {
     width: 53px;
     height: 53px;
     border-radius: 15px;
+  }
+}
+footer {
+  color: #fff;
+  font-family: "Montserrat";
+  position: relative;
+}
+footer .footer__top__bg {
+  position: absolute;
+  border-radius: 50px;
+  background-color: rgba(196, 196, 196, 0.1490196078);
+  padding: 17px;
+  bottom: 180px;
+  left: 250px;
+}
+footer .footer__top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #17c2ec;
+  padding: 120px 241px;
+  border-radius: 50px;
+}
+footer .footer__title {
+  font-size: 48px;
+}
+footer .footer__text {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+footer .footer__top_bot {
+  display: flex;
+  border-radius: 20px;
+}
+footer .footer__input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.2509803922);
+  font-family: "Montserrat";
+}
+footer .footer__input::placeholder {
+  color: rgba(0, 0, 0, 0.2509803922);
+  font-family: "Montserrat";
+}
+footer .footer__input {
+  width: 350px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+footer .footer__icon_bg {
+  padding: 17px 30px;
+  background-color: #0b153c;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+footer .paper {
+  font-size: 40px;
+}
+footer .footer__bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 336px;
+  padding-bottom: 93px;
+}
+footer .footer__bottom__title {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 32px;
+  cursor: pointer;
+}
+footer .footer__list {
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+}
+footer .footer__item {
+  font-size: 24px;
+}
+footer .footer__left {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+footer .youtube_icon {
+  font-size: 50px;
+}
+footer .instagram__icon {
+  font-size: 50px;
+}
+footer .twitter__icon {
+  font-size: 50px;
+}
+footer .facook {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  footer .footer__top {
+    padding: 16px 48px 56px 62px;
+  }
+  footer .footer__top__bg {
+    top: -129px;
+    left: 60px;
+    height: 306px;
+    width: 643px;
+  }
+  footer .footer__bottom {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 40px;
+  }
+  footer .footer__list {
+    margin: 0;
+  }
+}
+@media (max-width: 375px) {
+  footer .footer__title {
+    font-size: 18px;
+  }
+  footer .footer__text {
+    font-size: 10px;
+  }
+  footer .paper {
+    font-size: 20px;
+  }
+  footer .footer__input {
+    padding-left: 12px;
+    padding-top: 10px;
+    width: 168px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  footer .footer__icon_bg {
+    padding: 13px 27px;
+  }
+  footer .footer__input::-moz-placeholder {
+    font-size: 10px;
+  }
+  footer .footer__input::placeholder {
+    font-size: 10px;
+  }
+  footer .footer__top {
+    width: 280px;
+    border-radius: 10px;
+  }
+  footer .footer__top__bg {
+    width: 310px;
+    height: 230px;
+    border-radius: 10px;
+    top: -118px;
+    left: 37px;
+  }
+  footer .footer__list {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  footer .footer__bottom__title {
+    font-size: 18px;
+  }
+  footer .footer__item {
+    font-size: 14px;
+  }
+  footer .youtube_icon {
+    font-size: 17px;
+  }
+  footer .instagram__icon {
+    font-size: 17px;
+  }
+  footer .twitter__icon {
+    font-size: 17px;
+  }
+  footer .facook {
+    font-size: 17px;
+  }
+  footer .footer__left {
+    row-gap: 4px;
+  }
+  footer .footer__bottom {
+    row-gap: 20px;
+  }
+  footer .footer__bottom {
+    padding-top: 133px;
+    padding-bottom: 30px;
+  }
+  footer .footer__icon_bg {
+    padding: 10px 23px 10px 11px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
